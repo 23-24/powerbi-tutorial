@@ -1,0 +1,114 @@
+Today's Topics
+========================
+->Overview of powerBI
+->PowerBI Terms
+
+->DataSources
+->LOad data from csv, notepad(.txt), Excel , database server
+->Data Views 
+->Data Model
+->Filter the rows based on given condition 
+->Prepare first report in PowerBI
+
+
+Overview of powerBI
+======================
+-> PowerBI is interative visualiztion and BI tool, powerbi is project of MS(Microsoft)
+-> PowerBI Edition :
+			Desktop 	: free for 30 days (commercial)
+			Cloud 		: paid for commercial uses
+			Mobile App	: 
+
+-> Extension of PowerBI Report/Dashboard/File :  .pbx 
+
+
+PowerBI Terms
+====================
+DataSource  :  data can be loaded from following sources
+			-file system 
+				-text file
+				-csv (flat file)
+				-excel
+				-ms access
+				-json
+				-data
+				-sdata
+				etc.
+			-Server
+				-MS SQL Server
+				-Oracle
+				-IBM DB
+				-Google Sheet(Drive)
+				-SAP
+				-Hadoop
+				-SSAS
+				etc.
+
+					 
+Extension:
+		pbix			
+
+				
+Table	: combination of row and table
+Column   : field 
+
+Report  : Visualiztion 
+Data    : details row
+Relationships:  how two and more than two tables connected with each other 
+
+Number/Numeric Column : is also known as measure
+Text Column     : is also known as dimenssion 
+
+
+Reports:
+	Cards			: we can show the summary 
+	Multiple Cards		: we can show summary by category
+	Pie			: will not allow negative value 
+	Bar/Column Chart 
+			-> Vertical
+					->Single Bar
+					->Stacked
+					->Group  (side)
+			-> Horizental 
+					->Single Bar
+					->Stacked
+					->Group  (side)
+
+
+LOad data from csv, notepad(.txt), Excel , database server
+===========================================================
+CSV : comma seperate version 
+	example.csv
+	id,name,gender
+	1,raman,male
+.txt
+	comma seperated
+	tab   		*
+	pipe 		
+	semi colon 	*	
+	colon 
+	length 		*
+	id name  gendersalary
+	101raman male  333333
+	10 monikafemale44455
+	1  jatin male  44444
+	
+	
+
+sname | TotalScore | Avg | Grade
+				>80  A
+				>60  B
+				>40  C
+				esle
+				D
+			
+
+
+Ceate new powerbi account:
+
+	https://powerbi.microsoft.com/en-us/landing/signin/
+	
+
+
+
+	
